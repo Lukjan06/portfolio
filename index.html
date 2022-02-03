@@ -11,136 +11,195 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Merriweather:wght@700&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="light-theme">
+    <!--header-->
     <header class="header">
-        <div class="container header-container">
-            <svg display="none" width="50px" height="50px" class="hidden">
+        <div class="container">
+            <div class="header-container">
+                <div class="heder-items">
+                    <svg display="none" width="50px" height="50px" class="hidden">
                 <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" id="logo_hover">
                 <path d="M20.4506 5.25918C19.0919 5.69691 17.9456 6.47652 17.6601 7.15634L17.5398 7.4419L15.6561 7.43301L15.4116 6.93006C15.2253 6.54668 15.063 6.3708 14.7263 6.18701L14.2864 5.94591H11.1062C6.93498 5.94591 6.40895 6.15341 6.40895 7.80355V8.26796L5.69955 8.61478C3.08441 9.8924 1.03538 12.416 0.225789 15.3546L0.000346207 16.1748V26.2584C0.000346207 37.2698 -0.0327188 36.5584 0.547422 38.1166C1.84798 41.6086 4.86291 44.1352 8.54916 44.8258C9.78859 45.0581 40.2114 45.0581 41.4508 44.8258C45.1371 44.1362 48.152 41.6096 49.4526 38.1166C50.0327 36.5584 49.9997 37.2698 49.9997 26.2584V16.1748L49.7832 15.4031C48.649 11.3647 45.7433 8.61182 41.6342 7.67905C41.02 7.53972 40.2134 7.50514 36.6765 7.46858L32.4532 7.42412L32.3369 7.14745C32.0504 6.46565 30.8209 5.64553 29.4663 5.23349C28.3992 4.9084 21.4756 4.92816 20.4506 5.25918ZM40.0601 10.8222C43.053 11.1256 45.3856 12.9526 46.3976 15.7874L46.6731 16.5591L46.7012 25.871C46.7332 36.5189 46.7653 36.0218 45.9236 37.7342C44.9758 39.662 43.064 41.1205 40.9288 41.5453C39.7856 41.7726 10.2114 41.7726 9.07118 41.5453C6.91594 41.1145 5.0112 39.6284 4.00923 37.5949C3.24473 36.0426 3.26677 36.4072 3.29883 25.871L3.32689 16.5591L3.63149 15.7163C4.60841 13.0168 6.9961 11.1167 9.77356 10.8291C10.9589 10.7066 38.8517 10.6997 40.0601 10.8212V10.8222ZM9.51706 11.8884C6.37889 12.3419 4.35391 14.8942 4.35391 18.398V19.6954H11.0661L11.2915 19.2369C12.2845 17.2123 14.2844 15.0167 16.4357 13.5869C17.2402 13.0524 19.3614 11.9763 19.6109 11.9763C19.669 11.9763 19.7161 11.9328 19.7161 11.8795C19.7161 11.7609 10.3457 11.7678 9.51706 11.8874V11.8884ZM30.2839 11.8548C30.2839 11.9002 30.4492 11.9951 30.6506 12.0652C33.7206 13.1294 37.462 16.4702 38.7385 19.2863L38.9249 19.6964H45.6471V18.399C45.6471 15.1284 44.1341 12.9842 41.1462 12.0168C40.5581 11.8261 30.2849 11.674 30.2849 11.8558L30.2839 11.8548ZM24.0707 12.5178C12.6663 13.6156 7.13237 25.9748 14.0931 34.7976C21.7892 44.5512 37.8768 39.7015 38.8858 27.3236C39.5611 19.0343 32.2528 11.7313 24.0707 12.5178ZM26.6638 15.9455C33.2327 16.8753 37.3277 23.963 34.8278 30.0774C31.9482 37.1216 22.708 38.9279 17.4136 33.4804C10.3908 26.2544 16.5819 14.5187 26.6638 15.9455ZM23.8723 17.5719C17.9617 18.395 14.553 24.3474 16.8885 29.7701C19.5698 35.9942 28.5605 36.7659 32.376 31.1001C36.5512 24.9007 31.2949 16.5394 23.8723 17.5719ZM27.7168 18.9098C28.8581 19.2596 29.7118 20.0768 29.7318 20.8366C29.7779 22.5886 26.2289 22.5332 25.0416 20.7635C24.1388 19.4187 25.747 18.3051 27.7168 18.9098ZM22.701 32.2552C23.7821 32.4805 25.3923 33.4557 25.3923 33.8846C25.3923 34.8865 21.7581 34.2393 20.697 33.0486C19.9636 32.2246 20.8564 31.8708 22.701 32.2552ZM41.9128 35.9991C39.8938 36.6167 40.2846 39.3863 42.3897 39.3794C44.5309 39.3725 44.6902 36.2629 42.564 35.9734C42.3486 35.9438 42.056 35.9556 41.9128 36.0001V35.9991Z"></path>
               </symbol>
-              </svg>
-                <svg class="icon">
+                    </svg>
+                    <svg class="icon">
                 <use xlink:href="#logo_hover"></use>
-              </svg>
-                <nav class="nav">
-                <ul class="nav-list">
-                    <li class="nav-items"><a href="#skills" class="nav-link">Skills</a> </li>
-                    <li class="nav-items"><a href="#portfolio" class="nav-link">Portfolio</a> </li>
-                    <li class="nav-items"><a href="#video" class="nav-link">Video</a> </li>
-                    <li class="nav-items"><a href="#price" class="nav-link">Price</a> </li>
-                    <li class="nav-items"><a href="#contacts" class="nav-link">Contacts</a> </li>
-                </ul>
-                </nav>
+                    </svg>
+                        <nav class="nav">
+                            <ul class="nav-list">
+                                <li class="nav-items"><a href="#skills" class="nav-link">Skills</a> </li>
+                                <li class="nav-items"><a href="#portfolio" class="nav-link">Portfolio</a> </li>
+                                <li class="nav-items"><a href="#video" class="nav-link">Video</a> </li>
+                                <li class="nav-items"><a href="#price" class="nav-link">Price</a> </li>
+                                <li class="nav-items"><a href="#contacts" class="nav-link">Contacts</a> </li>
+                            </ul>
+                            <div class="nav-close">
+                                <span class="close-line close-1"></span>
+                                <span class="close-line close-2"></span>
+                            </div>
+                        </nav>
             <div class="language">
-                <a href="#" class="langauge-type english">en</a> /  <a href="#" class="language-type">ru</a>
+                <a href="#" class="language-type english">en</a> /  <a href="#" class="language-type">ru</a>
+            </div>
+<!--sun sprite-->
+<!--<svg display="none" width="0" height="0" class="hidden">
+    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 45 45" id="carbon-sun">
+      <path d="M22.8375 17.2125C23.95 17.2125 25.0376 17.5424 25.9626 18.1605C26.8876 18.7786 27.6086 19.6571 28.0343 20.6849C28.4601 21.7127 28.5715 22.8437 28.3544 23.9349C28.1374 25.026 27.6016 26.0283 26.815 26.815C26.0283 27.6016 25.026 28.1374 23.9349 28.3544C22.8437 28.5715 21.7127 28.4601 20.6849 28.0343C19.6571 27.6086 18.7786 26.8876 18.1605 25.9626C17.5424 25.0376 17.2125 23.95 17.2125 22.8375C17.2144 21.3462 17.8076 19.9166 18.8621 18.8621C19.9166 17.8076 21.3462 17.2144 22.8375 17.2125ZM22.8375 14.4C21.1687 14.4 19.5374 14.8949 18.1499 15.822C16.7623 16.7491 15.6809 18.0669 15.0423 19.6086C14.4037 21.1504 14.2366 22.8469 14.5621 24.4836C14.8877 26.1203 15.6913 27.6237 16.8713 28.8037C18.0513 29.9837 19.5547 30.7873 21.1914 31.1129C22.8281 31.4384 24.5246 31.2713 26.0664 30.6327C27.6081 29.9941 28.9259 28.9127 29.853 27.5251C30.7802 26.1376 31.275 24.5063 31.275 22.8375C31.275 20.5997 30.3861 18.4536 28.8037 16.8713C27.2214 15.2889 25.0753 14.4 22.8375 14.4Z"></path>
+      <path d="M7.58531 9.58078L9.57375 7.59094L14.5041 12.5213L12.5156 14.5097L7.58531 9.58078Z"></path>
+      <path d="M2.8125 21.1008H9.84375V23.9133H2.8125V21.1008Z"></path>
+      <path d="M7.58531 35.4333L12.5156 30.503L14.5041 32.4928L9.57375 37.4217L7.58531 35.4333Z"></path>
+      <path d="M21.0938 35.1633H23.9062V42.1945H21.0938V35.1633Z"></path>
+      <path d="M30.4973 32.4928L32.4858 30.503L37.4161 35.4333L35.4277 37.4217L30.4973 32.4928Z"></path>
+      <path d="M35.1562 21.1008H42.1875V23.9133H35.1562V21.1008Z"></path>
+      <path d="M30.4973 12.5213L35.4277 7.59094L37.4161 9.58078L32.4858 14.5097L30.4973 12.5213Z"></path>
+      <path d="M21.0938 2.81953H23.9062V9.85078H21.0938V2.81953Z"></path>
+    </symbol>-->
+    <svg display="none" width="0" height="0" class="hidden">
+        <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 45 45" id="carbon-sun-2">
+          <path d="M22.5 16.8821C23.6125 16.8821 24.7001 17.212 25.6251 17.8301C26.5501 18.4481 27.2711 19.3267 27.6968 20.3545C28.1226 21.3823 28.234 22.5133 28.0169 23.6045C27.7999 24.6956 27.2641 25.6979 26.4775 26.4846C25.6908 27.2712 24.6885 27.807 23.5974 28.024C22.5062 28.241 21.3752 28.1296 20.3474 27.7039C19.3196 27.2782 18.4411 26.5572 17.823 25.6322C17.2049 24.7071 16.875 23.6196 16.875 22.5071C16.8769 21.0158 17.4701 19.5861 18.5246 18.5317C19.5791 17.4772 21.0087 16.8839 22.5 16.8821ZM22.5 14.0696C20.8312 14.0696 19.1999 14.5644 17.8124 15.4916C16.4248 16.4187 15.3434 17.7364 14.7048 19.2782C14.0662 20.8199 13.8991 22.5164 14.2246 24.1532C14.5502 25.7899 15.3538 27.2933 16.5338 28.4733C17.7138 29.6533 19.2172 30.4569 20.8539 30.7825C22.4906 31.108 24.1871 30.9409 25.7289 30.3023C27.2706 29.6637 28.5884 28.5822 29.5155 27.1947C30.4427 25.8072 30.9375 24.1759 30.9375 22.5071C30.9375 20.2693 30.0486 18.1232 28.4662 16.5409C26.8839 14.9585 24.7378 14.0696 22.5 14.0696Z"></path>
+          <path d="M7.58521 9.58066L9.57364 7.59082L14.504 12.5211L12.5155 14.5096L7.58521 9.58066Z"></path>
+          <path d="M2.8125 21.1008H9.84375V23.9133H2.8125V21.1008Z"></path>
+          <path d="M7.58521 35.4332L12.5155 30.5029L14.504 32.4928L9.57364 37.4217L7.58521 35.4332Z"></path>
+          <path d="M21.0938 35.1633H23.9062V42.1946H21.0938V35.1633Z"></path>
+          <path d="M30.4973 32.4928L32.4858 30.5029L37.4161 35.4332L35.4276 37.4217L30.4973 32.4928Z"></path>
+          <path d="M35.1562 21.1008H42.1875V23.9133H35.1562V21.1008Z"></path>
+          <path d="M30.4973 12.5211L35.4276 7.59082L37.4161 9.58066L32.4858 14.5096L30.4973 12.5211Z"></path>
+          <path d="M21.0938 2.81958H23.9062V9.85083H21.0938V2.81958Z"></path>
+        </symbol>
+  </svg>
+  <svg class="sun">
+    <use xlink:href="#carbon-sun-2"></use>
+  </svg>
+  <!--<svg class="sun">
+    <use xlink:href="#carbon-sun"></use>
+  </svg>-->
+
+                    <div class="burger-header">
+                        <span class="burger-line  burger-line-1"></span>
+                        <span class="burger-line burger-line-2"></span>
+                        <span class="burger-line burger-line-3"></span>
+                    </div>
+                   
+                </div>
             </div>
         </div> 
     </header>
 
+    <!--main-->
+<!--hero starts-->
     <main class="main">
         <div class="container">
             <div class="hero-container">
             <section id="hero">
                <h1 class="hero-title">Alexa Rise</h1>
                <p class="hero-text">
-                Save sincere emotions, romantic feelings and <br> happy moments of life together with professional <br> photographer Alexa Rise
+                Save sincere emotions, romantic feelings and happy moments of life together with professional photographer Alexa Rise
                </p>
                 <form action="post">
                     <button class="btn">Hire me</button>
                 </form> 
             </section>
             </div>
+<!--hero ends-->
 
-            <section id="skills">
-                <h2 class="section-title"><span>Skills</span></h2>               
-                    <div class="skills-item-block">
-                    <div class="skills-item">    
-                    <img src="./assets/svg/camera-logo.svg" alt="camera-logo" class="skills-logo">
-                        <h4 class="skills-name">
-                        Digital photography
-                        </h4>
-                            <p class="skills-review">
-                              High-quality photos in the studio <br> and on the nature
-                            </p>
+<!--skills starts-->
+            <section id="skills" class="light-theme">
+                <div class="skills-section">
+                    <h2 class="section-title"><span class="light-theme">Skills</span></h2>               
+                        <div class="skills-item-block">
+                        <div class="skills-item">    
+                            <img src="./assets/svg/camera-logo.svg" alt="camera-logo" class="skills-logo">
+                            <h4 class="skills-name">
+                                Digital photography
+                            </h4>
+                                <p class="skills-review">
+                                    High-quality photos in the studio <br> and on the nature
+                                </p>
+                        </div>
+                        <div class="skills-item">
+                            <img src="./assets/svg/video-logo.svg" alt="video-logo" class="skills-logo">
+                                <h4 class="skills-name">
+                                Video shooting
+                                </h4>
+                                    <p class="skills-review">
+                                        Capture your moments so that <br>
+                                        they always stay with you
+                                    </p>
+                        </div>
+                        <div class="skills-item">
+                            <img src="./assets/svg/image-logo.svg" alt="image-logo" class="skills-logo">
+                            <h4 class="skills-name">
+                                Retouch
+                            </h4>
+                                <p class="skills-review">
+                                    I strive to make photography <br> surpass reality
+                                </p>
+                        </div>
+                        <div class="skills-item">
+                            <img src="./assets/svg/mic-logo.svg" alt="microphone-logo" class="skills-logo">
+                            <h4 class="skills-name">
+                                Audio
+                            </h4>
+                                <p class="skills-review">
+                                    Professional sounds recording <br> for video, advertising, portfolio
+                                </p>
+                        </div>
+                        </div>
                 </div>
-                <div class="skills-item">
-                     <img src="./assets/svg/video-logo.svg" alt="video-logo" class="skills-logo">
-                        <h4 class="skills-name">
-                        Video shooting
-                        </h4>
-                            <p class="skills-review">
-                              Capture your moments so that <br>
-                              they always stay with you
-                            </p>
-                </div>
-                <div class="skills-item">
-                    <img src="./assets/svg/image-logo.svg" alt="image-logo" class="skills-logo">
-                        <h4 class="skills-name">
-                            Retouch
-                        </h4>
-                            <p class="skills-review">
-                                I strive to make photography <br> surpass reality
-                            </p>
-                </div>
-                <div class="skills-item">
-                    <img src="./assets/svg/mic-logo.svg" alt="microphone-logo" class="skills-logo">
-                        <h4 class="skills-name">
-                            Audio
-                        </h4>
-                            <p class="skills-review">
-                                Professional sounds recording <br> for video, advertising, portfolio
-                            </p>
-                </div>
-            </div>
             </section>
+<!--skills ends-->
 
-            <section id="portfolio">
-                <h2 class="section-title"><span>Portfolio</span></h2>
+<!--portfolio starts-->
+
+            <section id="portfolio" class="light-theme">
+                <h2 class="section-title"><span class="light-theme">Portfolio</span></h2>
                 <div class="portfolio-btn">
-                    <button class="btn section-btn">
+                    <button class="btn section-btn" dataset.season = "winter">
                         Winter
                     </button>
-                    <button class="btn section-btn">
+                    <button class="btn section-btn" dataset.season = "spring">
                         Spring
                     </button>
-                    <button class="btn section-btn">
+                    <button class="btn section-btn" dataset.season = "summer">
                         Summer
                     </button>
-                    <button class="btn section-btn>">
+                    <button class="btn section-btn autumn" dataset.season = "autumn">
                         Autumn
                     </button>
                 </div>
                 <div class="portfolio-items">
-                    <img src="./assets/img/img1.jpg" alt="kissing-pair-photo" class="portfolio-img">
-                    <img src="./assets/img/img2.jpg" alt="horse-photo" class="portfolio-img">
-                    <img src="./assets/img/img3.jpg" alt="child-photo" class="portfolio-img">
-                    <img src="./assets/img/img4.jpg" alt="tree-photo" class="portfolio-img">
-                    <img src="./assets/img/img5.jpg" alt="" class="portfolio-img">
-                    <img src="./assets/img/img6.jpg" alt="smiling-pair" class="portfolio-img">
+                    <img src="./assets/img/autumn/1.jpg" alt="kissing-pair-photo" class="portfolio-img">
+                    <img src="./assets/img/autumn/2.jpg" alt="horse-photo" class="portfolio-img">
+                    <img src="./assets/img/autumn/3.jpg" alt="child-photo" class="portfolio-img">
+                    <img src="./assets/img/autumn/4.jpg" alt="tree-photo" class="portfolio-img">
+                    <img src="./assets/img/autumn/5.jpg" alt="" class="portfolio-img">
+                    <img src="./assets/img/autumn/6.jpg" alt="smiling-pair" class="portfolio-img">
                 </div>
             </section>
+<!--portfolio ends-->
+    <!--video starts-->
 
-            <section id="video">
-                <h2 class="section-title"><span>Video</span></h2>
+            <section id="video" class="light-theme">
+                <h2 class="section-title"><span class="light-theme">Video</span></h2>
                 <div class="video-player">
-                   <img src="./assets/img/video-player.jpg" alt="just-married-pair-photo" class="video-player">
                    <button class="video-btn">
                     <svg display="none" width="0" height="0" class="hidden">
                         <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 130" id="Play_hover">
                           <path d="M58.521 0.13572C58.0219 0.256183 55.5699 0.686409 53.0729 1.09112C6.17415 8.69809 -16.0083 65.9044 13.0263 104.367C22.0681 116.344 42.8323 129.906 43.8607 124.506C43.9895 123.832 42.7534 122.978 39.6854 121.624C27.0991 116.065 15.7097 105.112 9.49548 92.5938C-13.0744 47.1276 25.5402 -4.32319 75.965 4.02852C83.5399 5.28359 84.8555 2.66782 77.4319 1.11129C74.053 0.402757 60.344 -0.303999 58.521 0.136315V0.13572ZM58.8236 13.5427C49.9562 14.8494 38.5455 19.3896 38.5455 21.6114C38.5455 23.3352 39.8261 23.2017 44.5063 20.9901C70.1424 8.8779 101.354 22.1306 110.64 49.0716C126.075 93.8524 75.1194 131.76 36.427 104.279C14.9264 89.009 9.96843 58.679 25.4031 36.8396C29.4989 31.0443 27.3436 28.5941 23.1612 34.2915C-2.60779 69.3966 24.2964 118.982 67.7711 116.507C111.658 114.008 132.641 61.4206 102.441 29.6195C91.3694 17.9613 73.5089 11.378 58.8242 13.5415L58.8236 13.5427ZM111.588 21.4488C110.688 22.349 111.376 23.9601 114.257 27.704C135.62 55.4579 128.626 96.9429 99.2939 116.46C86.0768 125.255 74.472 127.692 52.7708 126.233C50.7271 126.096 50.3491 126.252 50.3491 127.237C50.3491 131.711 76.324 130.498 89.2029 125.422C126.968 110.539 141.858 62.4946 119.094 28.9739C114.774 22.6137 112.602 20.4352 111.588 21.4494L111.588 21.4488ZM47.2645 44.1107C46.191 45.2963 46.099 46.6867 45.9347 64.2031C45.6647 92.9997 42.7985 92.1292 77.569 73.8111C94.5145 64.8831 94.6095 65.1632 70.3056 52.4143C51.3039 42.4467 49.3949 41.7584 47.2645 44.1107ZM68.2637 55.0052C86.726 64.6481 86.8221 64.7081 85.5308 65.7798C84.0829 66.982 51.1615 84 50.285 84C49.5812 84 49.4412 80.8353 49.4412 64.9324C49.4412 51.5574 49.6388 45.8642 50.1022 45.8642C50.4654 45.8642 58.6385 49.9778 68.2643 55.0052H68.2637Z"></path>
                         </symbol>
                       </svg>
-                      <svg class="player-btn">
+                        <svg class="player-btn">
                         <use xlink:href="#Play_hover"></use>
                       </svg>
-                
-                
                 </button>
                 </div>
             </section>
 
-            <section id="price">
-                <h2 class="section-title"><span>Price</span></h2>
+<!--video ends-->
+    <!--price starts--> 
+
+          <section id="price" class="light-theme">
+                <h2 class="section-title"><span class="light-theme">Price</span></h2>
                 <div class="price-items">
                     <div class="price-item">
                         <h3 class="price-item-name">
@@ -150,11 +209,11 @@
                             500 $
                         </p>
                         <p class="description">
-                            <span class="span">One location</span>
-                            <span class="span">120 photos in color </span>
-                            <span class="span">12 photos in retouch </span>
-                            <span class="span">Readiness 2-3 weeks </span>
-                            <span class="span">Make up, visage</span>
+                            <span class="span light-theme">One location</span>
+                            <span class="span light-theme">120 photos in color </span>
+                            <span class="span light-theme">12 photos in retouch </span>
+                            <span class="span light-theme">Readiness 2-3 weeks </span>
+                            <span class="span light-theme">Make up, visage</span>
                         </p>
                         <button class="btn order">
                             Order shooting
@@ -167,11 +226,11 @@
                             700 $
                         </p>
                         <p class="description">
-                            <span class="span">One or two locations </span>
-                            <span class="span">200 photos in color </span>
-                            <span class="span">20 photos in retouch </span>
-                            <span class="span">Readiness 1-2 weeks </span>
-                            <span class="span">Make up, visage</span>
+                            <span class="span light-theme">One or two locations </span>
+                            <span class="span light-theme">200 photos in color </span>
+                            <span class="span light-theme">20 photos in retouch </span>
+                            <span class="span light-theme">Readiness 1-2 weeks </span>
+                            <span class="span light-theme">Make up, visage</span>
                         </p>
                         <button class="btn order">
                             Order shooting
@@ -185,20 +244,23 @@
                             1000 $
                         </p>
                         <p class="description">
-                            <span class="span">Three locations or more </span>
-                            <span class="span">300 photos in color </span>
-                            <span class="span">50 photos in retouch </span>
-                            <span class="span">Readiness 1 week </span>
-                            <span class="span">Make up, visage, hairstyle</span>
+                            <span class="span light-theme">Three locations or more </span>
+                            <span class="span light-theme">300 photos in color </span>
+                            <span class="span light-theme">50 photos in retouch </span>
+                            <span class="span light-theme">Readiness 1 week </span>
+                            <span class="span light-theme">Make up, visage, hairstyle</span>
                         </p>
                         <button class="btn order">
                             Order shooting
                         </button>
                     </div>
                 </div>
+    <!--price ends-->
+     <!--contacts starts-->             
 
             </section>
             <section id="contacts">
+                <div class="contact-form">
                 <h2 class="my-contacts">Contact me</h2>
                 <div class="contacts-container">
                     <form class="form" action="#" method="post">
@@ -210,13 +272,15 @@
                         </button>
                     </form>
                 </div>
+                </div>
             </section>
         </div>
-
     </main>
 
+    <!--contacts ends-->
+    <!--footer starts-->
     <footer class="footer">
-        <div class="container">
+        <div class="container footer-container">
         <div class="author-and-year">
             <div class="copyright">
                 <p class="year">&#169;</p>
