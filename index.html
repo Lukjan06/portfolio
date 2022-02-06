@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Merriweather:wght@700&display=swap" rel="stylesheet">
 </head>
-<body class="light-theme">
+<body class="body">
     <!--header-->
     <header class="header">
         <div class="container">
@@ -25,7 +25,7 @@
                     <svg class="icon">
                 <use xlink:href="#logo_hover"></use>
                     </svg>
-                        <nav class="nav">
+                        <nav class="nav mini-nav">
                             <ul class="nav-list">
                                 <li class="nav-items"><a href="#skills" class="nav-link">Skills</a> </li>
                                 <li class="nav-items"><a href="#portfolio" class="nav-link">Portfolio</a> </li>
@@ -34,26 +34,14 @@
                                 <li class="nav-items"><a href="#contacts" class="nav-link">Contacts</a> </li>
                             </ul>
                             <div class="nav-close">
-                                <span class="close-line close-1"></span>
-                                <span class="close-line close-2"></span>
+                                <span class="close-line line close-1"></span>
+                                <span class="close-line line close-2"></span>
                             </div>
                         </nav>
             <div class="language">
                 <a href="#" class="language-type english">en</a> /  <a href="#" class="language-type">ru</a>
             </div>
-<!--sun sprite-->
-<!--<svg display="none" width="0" height="0" class="hidden">
-    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 45 45" id="carbon-sun">
-      <path d="M22.8375 17.2125C23.95 17.2125 25.0376 17.5424 25.9626 18.1605C26.8876 18.7786 27.6086 19.6571 28.0343 20.6849C28.4601 21.7127 28.5715 22.8437 28.3544 23.9349C28.1374 25.026 27.6016 26.0283 26.815 26.815C26.0283 27.6016 25.026 28.1374 23.9349 28.3544C22.8437 28.5715 21.7127 28.4601 20.6849 28.0343C19.6571 27.6086 18.7786 26.8876 18.1605 25.9626C17.5424 25.0376 17.2125 23.95 17.2125 22.8375C17.2144 21.3462 17.8076 19.9166 18.8621 18.8621C19.9166 17.8076 21.3462 17.2144 22.8375 17.2125ZM22.8375 14.4C21.1687 14.4 19.5374 14.8949 18.1499 15.822C16.7623 16.7491 15.6809 18.0669 15.0423 19.6086C14.4037 21.1504 14.2366 22.8469 14.5621 24.4836C14.8877 26.1203 15.6913 27.6237 16.8713 28.8037C18.0513 29.9837 19.5547 30.7873 21.1914 31.1129C22.8281 31.4384 24.5246 31.2713 26.0664 30.6327C27.6081 29.9941 28.9259 28.9127 29.853 27.5251C30.7802 26.1376 31.275 24.5063 31.275 22.8375C31.275 20.5997 30.3861 18.4536 28.8037 16.8713C27.2214 15.2889 25.0753 14.4 22.8375 14.4Z"></path>
-      <path d="M7.58531 9.58078L9.57375 7.59094L14.5041 12.5213L12.5156 14.5097L7.58531 9.58078Z"></path>
-      <path d="M2.8125 21.1008H9.84375V23.9133H2.8125V21.1008Z"></path>
-      <path d="M7.58531 35.4333L12.5156 30.503L14.5041 32.4928L9.57375 37.4217L7.58531 35.4333Z"></path>
-      <path d="M21.0938 35.1633H23.9062V42.1945H21.0938V35.1633Z"></path>
-      <path d="M30.4973 32.4928L32.4858 30.503L37.4161 35.4333L35.4277 37.4217L30.4973 32.4928Z"></path>
-      <path d="M35.1562 21.1008H42.1875V23.9133H35.1562V21.1008Z"></path>
-      <path d="M30.4973 12.5213L35.4277 7.59094L37.4161 9.58078L32.4858 14.5097L30.4973 12.5213Z"></path>
-      <path d="M21.0938 2.81953H23.9062V9.85078H21.0938V2.81953Z"></path>
-    </symbol>-->
+
     <svg display="none" width="0" height="0" class="hidden">
         <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 45 45" id="carbon-sun-2">
           <path d="M22.5 16.8821C23.6125 16.8821 24.7001 17.212 25.6251 17.8301C26.5501 18.4481 27.2711 19.3267 27.6968 20.3545C28.1226 21.3823 28.234 22.5133 28.0169 23.6045C27.7999 24.6956 27.2641 25.6979 26.4775 26.4846C25.6908 27.2712 24.6885 27.807 23.5974 28.024C22.5062 28.241 21.3752 28.1296 20.3474 27.7039C19.3196 27.2782 18.4411 26.5572 17.823 25.6322C17.2049 24.7071 16.875 23.6196 16.875 22.5071C16.8769 21.0158 17.4701 19.5861 18.5246 18.5317C19.5791 17.4772 21.0087 16.8839 22.5 16.8821ZM22.5 14.0696C20.8312 14.0696 19.1999 14.5644 17.8124 15.4916C16.4248 16.4187 15.3434 17.7364 14.7048 19.2782C14.0662 20.8199 13.8991 22.5164 14.2246 24.1532C14.5502 25.7899 15.3538 27.2933 16.5338 28.4733C17.7138 29.6533 19.2172 30.4569 20.8539 30.7825C22.4906 31.108 24.1871 30.9409 25.7289 30.3023C27.2706 29.6637 28.5884 28.5822 29.5155 27.1947C30.4427 25.8072 30.9375 24.1759 30.9375 22.5071C30.9375 20.2693 30.0486 18.1232 28.4662 16.5409C26.8839 14.9585 24.7378 14.0696 22.5 14.0696Z"></path>
@@ -70,15 +58,24 @@
   <svg class="sun">
     <use xlink:href="#carbon-sun-2"></use>
   </svg>
-  <!--<svg class="sun">
-    <use xlink:href="#carbon-sun"></use>
-  </svg>-->
 
-                    <div class="burger-header">
+  <!--Moon Icon-->
+  <svg display="none" width="0" height="0" class="hidden">
+    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 41 40" id="moon">
+      <path d="M21.4528 40C15.7066 40 10.315 37.8174 6.27098 33.8545C2.22701 29.8915 5.02421e-07 24.6074 5.02421e-07 18.9761C-0.00085731 15.0913 1.09674 11.2823 3.17098 7.97181C5.24521 4.66132 8.21494 1.97886 11.7505 0.222165C12.1143 0.0404498 12.5246 -0.032245 12.9302 0.0131555C13.3359 0.058556 13.7189 0.220041 14.0315 0.477451C14.344 0.734861 14.5723 1.07679 14.6878 1.46057C14.8033 1.84434 14.8009 2.25294 14.6809 2.63538C13.672 5.82896 13.5728 9.23201 14.3941 12.4768C15.2154 15.7216 16.9259 18.6847 19.3408 21.046C21.0739 22.757 23.136 24.1141 25.4078 25.0388C27.6796 25.9635 30.116 26.4374 32.576 26.433C34.4579 26.4345 36.3292 26.1578 38.1269 25.6125C38.5172 25.4948 38.9342 25.4924 39.3258 25.6056C39.7175 25.7188 40.0665 25.9425 40.3291 26.2488C40.5918 26.5552 40.7566 26.9306 40.8029 27.3282C40.8492 27.7257 40.775 28.1279 40.5895 28.4843C38.7969 31.9492 36.0597 34.8596 32.6817 36.8923C29.3036 38.9251 25.4169 40.0008 21.4528 40ZM11.6763 3.31431C8.93463 4.94908 6.66986 7.24958 5.10105 9.99327C3.53225 12.737 2.71252 15.831 2.72115 18.9761C2.72115 29.0982 11.1241 37.3333 21.4528 37.3333C24.6621 37.3417 27.8193 36.5384 30.619 35.001C33.4187 33.4636 35.7662 31.2441 37.4343 28.5573C35.8413 28.9186 34.2114 29.1007 32.5762 29.1C29.7587 29.1053 26.9682 28.5628 24.3661 27.5041C21.764 26.4453 19.4021 24.8913 17.417 22.9319C14.8382 20.4094 12.9578 17.2845 11.9533 13.8522C10.9489 10.4199 10.8536 6.79279 11.6763 3.31431Z"></path>
+    </symbol>
+  </svg>
+  <svg class="moon-icon">
+    <use xlink:href="#moon"></use>
+  </svg>
+
+
+<!--moon ends-->
+                <div class="burger-header">
                         <span class="burger-line  burger-line-1"></span>
                         <span class="burger-line burger-line-2"></span>
                         <span class="burger-line burger-line-3"></span>
-                    </div>
+                 </div>
                    
                 </div>
             </div>
@@ -103,9 +100,17 @@
 <!--hero ends-->
 
 <!--skills starts-->
-            <section id="skills" class="light-theme">
+            <section id="skills" class="skills">
                 <div class="skills-section">
-                    <h2 class="section-title"><span class="light-theme">Skills</span></h2>               
+                    <h2 class="section-title"><span class="text-span">Skills</span></h2>                   <!--
+                    <div class="skills-title">
+                    <span class = span-text></span>
+                    <h2 class="section-title1">Skills</h2>
+                    <span class = span-text></span>
+                </div>
+                   -->
+
+
                         <div class="skills-item-block">
                         <div class="skills-item">    
                             <img src="./assets/svg/camera-logo.svg" alt="camera-logo" class="skills-logo">
@@ -151,8 +156,8 @@
 
 <!--portfolio starts-->
 
-            <section id="portfolio" class="light-theme">
-                <h2 class="section-title"><span class="light-theme">Portfolio</span></h2>
+            <section id="portfolio" class="portdolio">
+                <h2 class="section-title"><span class="text-span">Portfolio</span></h2>
                 <div class="portfolio-btn">
                     <button class="btn section-btn" dataset.season = "winter">
                         Winter
@@ -179,8 +184,8 @@
 <!--portfolio ends-->
     <!--video starts-->
 
-            <section id="video" class="light-theme">
-                <h2 class="section-title"><span class="light-theme">Video</span></h2>
+            <section id="video" class="video">
+                <h2 class="section-title"><span class="text-span">Video</span></h2>
                 <div class="video-player">
                    <button class="video-btn">
                     <svg display="none" width="0" height="0" class="hidden">
@@ -198,8 +203,8 @@
 <!--video ends-->
     <!--price starts--> 
 
-          <section id="price" class="light-theme">
-                <h2 class="section-title"><span class="light-theme">Price</span></h2>
+          <section id="price" class="price-section">
+                <h2 class="section-title"><span class="text-span">Price</span></h2>
                 <div class="price-items">
                     <div class="price-item">
                         <h3 class="price-item-name">
@@ -209,11 +214,11 @@
                             500 $
                         </p>
                         <p class="description">
-                            <span class="span light-theme">One location</span>
-                            <span class="span light-theme">120 photos in color </span>
-                            <span class="span light-theme">12 photos in retouch </span>
-                            <span class="span light-theme">Readiness 2-3 weeks </span>
-                            <span class="span light-theme">Make up, visage</span>
+                            <span class="span">One location</span>
+                            <span class="span">120 photos in color </span>
+                            <span class="span">12 photos in retouch </span>
+                            <span class="span">Readiness 2-3 weeks </span>
+                            <span class="span">Make up, visage</span>
                         </p>
                         <button class="btn order">
                             Order shooting
@@ -226,11 +231,11 @@
                             700 $
                         </p>
                         <p class="description">
-                            <span class="span light-theme">One or two locations </span>
-                            <span class="span light-theme">200 photos in color </span>
-                            <span class="span light-theme">20 photos in retouch </span>
-                            <span class="span light-theme">Readiness 1-2 weeks </span>
-                            <span class="span light-theme">Make up, visage</span>
+                            <span class="span">One or two locations </span>
+                            <span class="span">200 photos in color </span>
+                            <span class="span">20 photos in retouch </span>
+                            <span class="span">Readiness 1-2 weeks </span>
+                            <span class="span">Make up, visage</span>
                         </p>
                         <button class="btn order">
                             Order shooting
@@ -244,11 +249,11 @@
                             1000 $
                         </p>
                         <p class="description">
-                            <span class="span light-theme">Three locations or more </span>
-                            <span class="span light-theme">300 photos in color </span>
-                            <span class="span light-theme">50 photos in retouch </span>
-                            <span class="span light-theme">Readiness 1 week </span>
-                            <span class="span light-theme">Make up, visage, hairstyle</span>
+                            <span class="span">Three locations or more </span>
+                            <span class="span">300 photos in color </span>
+                            <span class="span">50 photos in retouch </span>
+                            <span class="span">Readiness 1 week </span>
+                            <span class="span">Make up, visage, hairstyle</span>
                         </p>
                         <button class="btn order">
                             Order shooting
