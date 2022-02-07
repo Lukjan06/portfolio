@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -27,11 +28,11 @@
                     </svg>
                         <nav class="nav mini-nav">
                             <ul class="nav-list">
-                                <li class="nav-items"><a href="#skills" class="nav-link">Skills</a> </li>
-                                <li class="nav-items"><a href="#portfolio" class="nav-link">Portfolio</a> </li>
-                                <li class="nav-items"><a href="#video" class="nav-link">Video</a> </li>
-                                <li class="nav-items"><a href="#price" class="nav-link">Price</a> </li>
-                                <li class="nav-items"><a href="#contacts" class="nav-link">Contacts</a> </li>
+                                <li class="nav-items"><a href="#skills" class="nav-link" data-i18 ="skills">Skills</a> </li>
+                                <li class="nav-items"><a href="#portfolio" class="nav-link" data-i18 = "portfolio">Portfolio</a> </li>
+                                <li class="nav-items"><a href="#video" class="nav-link" data-i18 = "video">Video</a> </li>
+                                <li class="nav-items"><a href="#price" class="nav-link" data-i18 = "price">Price</a> </li>
+                                <li class="nav-items"><a href="#contacts" class="nav-link" data-i18 = "contacts">Contacts</a> </li>
                             </ul>
                             <div class="nav-close">
                                 <span class="close-line line close-1"></span>
@@ -39,7 +40,7 @@
                             </div>
                         </nav>
             <div class="language">
-                <a href="#" class="language-type english">en</a> /  <a href="#" class="language-type">ru</a>
+                <a href="#" class="language-type-english">en</a> /  <a href="#" class="language-type">ru</a>
             </div>
 
     <svg display="none" width="0" height="0" class="hidden">
@@ -88,12 +89,12 @@
         <div class="container">
             <div class="hero-container">
             <section id="hero">
-               <h1 class="hero-title">Alexa Rise</h1>
-               <p class="hero-text">
+               <h1 class="hero-title" data-i18 = "hero-title">Alexa Rise</h1>
+               <p class="hero-text" data-i18 = "hero-text">
                 Save sincere emotions, romantic feelings and happy moments of life together with professional photographer Alexa Rise
                </p>
                 <form action="post">
-                    <button class="btn">Hire me</button>
+                    <button class="btn" data-i18 = "hire">Hire me</button>
                 </form> 
             </section>
             </div>
@@ -102,7 +103,7 @@
 <!--skills starts-->
             <section id="skills" class="skills">
                 <div class="skills-section">
-                    <h2 class="section-title"><span class="text-span">Skills</span></h2>                   <!--
+                    <h2 class="section-title"><span class="text-span" data-i18 = "skills">Skills</span></h2>                   <!--
                     <div class="skills-title">
                     <span class = span-text></span>
                     <h2 class="section-title1">Skills</h2>
@@ -114,38 +115,38 @@
                         <div class="skills-item-block">
                         <div class="skills-item">    
                             <img src="./assets/svg/camera-logo.svg" alt="camera-logo" class="skills-logo">
-                            <h4 class="skills-name">
+                            <h4 class="skills-name" data-i18 = "skill-title-1">
                                 Digital photography
                             </h4>
-                                <p class="skills-review">
+                                <p class="skills-review" data-i18 = "skill-text-1">
                                     High-quality photos in the studio <br> and on the nature
                                 </p>
                         </div>
                         <div class="skills-item">
                             <img src="./assets/svg/video-logo.svg" alt="video-logo" class="skills-logo">
-                                <h4 class="skills-name">
+                                <h4 class="skills-name" data-i18 = "skill-title-2">
                                 Video shooting
                                 </h4>
-                                    <p class="skills-review">
+                                    <p class="skills-review"data-i18 = "skill-text-2">
                                         Capture your moments so that <br>
                                         they always stay with you
                                     </p>
                         </div>
                         <div class="skills-item">
                             <img src="./assets/svg/image-logo.svg" alt="image-logo" class="skills-logo">
-                            <h4 class="skills-name">
+                            <h4 class="skills-name"data-i18 = "skill-title-3">
                                 Retouch
                             </h4>
-                                <p class="skills-review">
+                                <p class="skills-review"data-i18 = "skill-text-3">
                                     I strive to make photography <br> surpass reality
                                 </p>
                         </div>
                         <div class="skills-item">
                             <img src="./assets/svg/mic-logo.svg" alt="microphone-logo" class="skills-logo">
-                            <h4 class="skills-name">
+                            <h4 class="skills-name"data-i18 = "skill-title-4">
                                 Audio
                             </h4>
-                                <p class="skills-review">
+                                <p class="skills-review"data-i18 = "skill-text-4">
                                     Professional sounds recording <br> for video, advertising, portfolio
                                 </p>
                         </div>
@@ -157,18 +158,18 @@
 <!--portfolio starts-->
 
             <section id="portfolio" class="portdolio">
-                <h2 class="section-title"><span class="text-span">Portfolio</span></h2>
+                <h2 class="section-title"><span class="text-span" data-i18 = "portfolio">Portfolio</span></h2>
                 <div class="portfolio-btn">
-                    <button class="btn section-btn" dataset.season = "winter">
+                    <button class="btn section-btn" data-season="winter" data-i18 = "winter">
                         Winter
                     </button>
-                    <button class="btn section-btn" dataset.season = "spring">
+                    <button class="btn section-btn" data-season="spring"  data-i18 = "spring">
                         Spring
                     </button>
-                    <button class="btn section-btn" dataset.season = "summer">
+                    <button class="btn section-btn" data-season="summer" data-i18 = "summer">
                         Summer
                     </button>
-                    <button class="btn section-btn autumn" dataset.season = "autumn">
+                    <button class="btn section-btn"  data-season="autumn" data-i18 = "autumn">
                         Autumn
                     </button>
                 </div>
@@ -185,7 +186,7 @@
     <!--video starts-->
 
             <section id="video" class="video">
-                <h2 class="section-title"><span class="text-span">Video</span></h2>
+                <h2 class="section-title"><span class="text-span" data-i18 = "video">Video</span></h2>
                 <div class="video-player">
                    <button class="video-btn">
                     <svg display="none" width="0" height="0" class="hidden">
@@ -204,7 +205,7 @@
     <!--price starts--> 
 
           <section id="price" class="price-section">
-                <h2 class="section-title"><span class="text-span">Price</span></h2>
+                <h2 class="section-title"><span class="text-span"data-i18 = "price">Price</span></h2>
                 <div class="price-items">
                     <div class="price-item">
                         <h3 class="price-item-name">
@@ -214,13 +215,13 @@
                             500 $
                         </p>
                         <p class="description">
-                            <span class="span">One location</span>
-                            <span class="span">120 photos in color </span>
-                            <span class="span">12 photos in retouch </span>
-                            <span class="span">Readiness 2-3 weeks </span>
-                            <span class="span">Make up, visage</span>
+                            <span class="span" data-i18 = "price-description-1-span-1">One location</span>
+                            <span class="span" data-i18 = "price-description-1-span-2">120 photos in color </span>
+                            <span class="span" data-i18 = "price-description-1-span-3">12 photos in retouch </span>
+                            <span class="span" data-i18 = "price-description-1-span-4">Readiness 2-3 weeks </span>
+                            <span class="span" data-i18 = "price-description-1-span-5">Make up, visage</span>
                         </p>
-                        <button class="btn order">
+                        <button class="btn order" data-i18 = "order">
                             Order shooting
                         </button>
                     </div>
@@ -231,13 +232,13 @@
                             700 $
                         </p>
                         <p class="description">
-                            <span class="span">One or two locations </span>
-                            <span class="span">200 photos in color </span>
-                            <span class="span">20 photos in retouch </span>
-                            <span class="span">Readiness 1-2 weeks </span>
-                            <span class="span">Make up, visage</span>
+                            <span class="span" data-i18 = "price-description-2-span-1">One or two locations </span>
+                            <span class="span" data-i18 = "price-description-2-span-2">200 photos in color </span>
+                            <span class="span" data-i18 = "price-description-2-span-3">20 photos in retouch </span>
+                            <span class="span" data-i18 = "price-description-2-span-4">Readiness 1-2 weeks </span>
+                            <span class="span" data-i18 = "price-description-2-span-5">Make up, visage</span>
                         </p>
-                        <button class="btn order">
+                        <button class="btn order" data-i18 = "order">
                             Order shooting
                         </button>
                     </div>
@@ -249,13 +250,13 @@
                             1000 $
                         </p>
                         <p class="description">
-                            <span class="span">Three locations or more </span>
-                            <span class="span">300 photos in color </span>
-                            <span class="span">50 photos in retouch </span>
-                            <span class="span">Readiness 1 week </span>
-                            <span class="span">Make up, visage, hairstyle</span>
+                            <span class="span" data-i18 = "price-description-3-span-1">Three locations or more </span>
+                            <span class="span" data-i18 = "price-description-3-span-2">300 photos in color </span>
+                            <span class="span" data-i18 = "price-description-3-span-3">50 photos in retouch </span>
+                            <span class="span" data-i18 = "price-description-3-span-4">Readiness 1 week </span>
+                            <span class="span" data-i18 = "price-description-3-span-5">Make up, visage, hairstyle</span>
                         </p>
-                        <button class="btn order">
+                        <button class="btn order" data-i18 = "order"> 
                             Order shooting
                         </button>
                     </div>
@@ -266,13 +267,13 @@
             </section>
             <section id="contacts">
                 <div class="contact-form">
-                <h2 class="my-contacts">Contact me</h2>
+                <h2 class="my-contacts" data-i18 = "contact-me">Contact me</h2>
                 <div class="contacts-container">
                     <form class="form" action="#" method="post">
                         <input class="input" type="email" name="e-mail" id="e-mail" placeholder="E-mail">
                         <input class="input" type="tel" name="phone" id="phone" placeholder="Phone">
                         <textarea class="input" name="message" id="message" cols="30" rows="5" placeholder="Message"></textarea>
-                        <button class="btn button">
+                        <button class="btn button" data-i18 = "send-message">
                             Send message
                         </button>
                     </form>
